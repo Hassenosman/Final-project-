@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  background-color: #121212;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.about-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #c19913;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.about-btn > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.about {
+  max-width: 75rem;
+  margin: 5rem auto;
+  width: 95%;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about > p a {
+  text-decoration: none;
+  color: #c19913;
+}
+
+.home-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #c19913;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.home-btn > a {
+  text-decoration: none;
+  color: #fff;
+}
